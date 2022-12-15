@@ -1,0 +1,48 @@
+.list {
+	list-style: none;
+	/* padding: 1em 10em; */
+	display: flex;
+  text-align: right;
+}
+/* .list div {
+    position: absolute;
+    left: 10px;
+    height: 3px;
+    width: 28px;
+    background-color: #444;
+    border-radius: 2px;
+    display: inline-block;
+    box-sizing: border-box;
+  } */
+.contents{
+  font-size: 1.2em;
+}
+  
+.rightList{
+    list-style: none;
+	padding: 1em ;
+	display: block;
+    text-align: right;
+}
+
+.list > * + * {
+	margin-left: 2rem;
+}
+
+.rightList > * + * {
+	margin-left: 1rem;
+}
+
+.navAnchor {
+	text-decoration: underline 2px;
+}
+
+.navAnchor_home {
+	text-decoration: underline 2px;
+  margin-right: 10px;
+}
+
+.navAnchor:hover,
+.navAnchor:focus {
+	text-decoration: underlined dotted 2px;
+}
